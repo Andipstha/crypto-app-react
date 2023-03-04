@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import Coins from './components/Coins.js'
 import Coin from './routes/Coin.js'
 import Navbar from './components/Navbar.js'
-
+import Footer from './components/Footer.js';
 
 function App() {
 
@@ -31,8 +31,11 @@ function App() {
         </Route>
       </Routes>
 
+      <Footer />
+
     </>
   );
+
 }
 
 export default App;
